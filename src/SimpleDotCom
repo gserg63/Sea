@@ -9,11 +9,23 @@ public class SimpleDotCom {
         int guess = Integer.parseInt(stringGuess);
         String result = "Мимо!";
         
-        //if a 
+        for (cell: LocationCells) {
+            if (guess == cell){
+            result = "Попал!";
+            numOfHits++;
+            break;
+            }else{           //
+            result = "Мимо!" //
+            }
+        }
+        if (numOfHits == locationCells.length) {
+        result = "Потопил!"
+        }
+        System.out.println(result);
+        return result;
     }
     
-    void setLocationCells(int[] loc) {
-    
+    void setLocationCells(int[] cellLocations) {
     }
     
     }
