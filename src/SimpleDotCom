@@ -25,7 +25,8 @@ public class SimpleDotCom {
         return result;
     }
     
-    void setLocationCells(int[] cellLocations) {
+    void setLocationCells(int[] locs) {
+    locationCells = locs;
     }
     
     }
