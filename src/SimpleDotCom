@@ -1,3 +1,19 @@
-public class SimpleDotCom {
+import java.util.scanner;
 
+public class SimpleDotCom {
+    public static void main(String[] args) {
+    int[] locationCells;
+    int numOfHits = 0;
+    
+    String checkYouself (String guess) {
+        Scanner sc = new Scanner (System.in);
+        String shoot = sc.readLine(); // or nextLine() ???
+        int a = Integer.parseInt(sc);
+    }
+    
+    void setLocationCells(int[] loc) {
+    
+    }
+    
+    }
 }
