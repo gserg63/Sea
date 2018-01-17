@@ -9,7 +9,7 @@ public class SimpleDotCom {
         int guess = Integer.parseInt(stringGuess);
         String result = "Мимо!";
         
-        if a 
+        //if a 
     }
     
     void setLocationCells(int[] loc) {
